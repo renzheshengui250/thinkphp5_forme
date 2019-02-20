@@ -14,4 +14,6 @@ Route::get([
     'index'=>'index/index/index',
     'yuyin'=>'index/baidu/index',
     'page'=>'index/page/page',
+    'excel_in'=>'index/excel/import',
+    'excel_out'=>'index/excel/export',
 ]);
