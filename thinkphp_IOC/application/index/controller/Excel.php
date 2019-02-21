@@ -2,7 +2,6 @@
 namespace app\index\controller;
 
 use app\container\base\BaseController;
-use aipcont\AipSpeech;
 use think\Loader;
 
 class Excel extends BaseController
