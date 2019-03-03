@@ -8,18 +8,12 @@
 // +----------------------------------------------------------------------
 // | Author: liu21st <liu21st@gmail.com>
 // +----------------------------------------------------------------------
+use think\Route;
 
-return [
-    // 生成应用公共文件
-    '__file__' => ['common.php', 'config.php', 'database.php'],
-
-    // 定义demo模块的自动生成 （按照实际定义的文件名生成）
-    'demo'     => [
-        '__file__'   => ['common.php'],
-        '__dir__'    => ['behavior', 'controller', 'model', 'view'],
-        'controller' => ['Index', 'TestModel', 'UserType'],
-        'model'      => ['User', 'UserType'],
-        'view'       => ['wx/wx'],
-    ],
-    // 其他更多的模块定义
-];
+Route::get([
+    'back'      => 'index/index/index',
+    'yuyin'     => 'index/baidu/wx',
+    'page'      => 'index/page/page',
+    'excel_in'  => 'index/excel/import',
+    'excel_out' => 'index/excel/export',
+]);
