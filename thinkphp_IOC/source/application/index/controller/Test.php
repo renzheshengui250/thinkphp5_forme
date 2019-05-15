@@ -10,7 +10,7 @@ class Test extends BaseController
 {
     public function index()
     {
-        echo "新测试封泽生";
+        echo "新封泽生";
     }
 
     public function __construct(\app\container\IOC $ioc)
