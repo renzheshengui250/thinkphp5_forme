@@ -12,4 +12,9 @@ class Test extends BaseController
     {
         echo "新测试--------封泽生";
     }
+
+    public function __construct(\app\container\IOC $ioc)
+    {
+        parent::__construct($ioc);
+    }
 }
