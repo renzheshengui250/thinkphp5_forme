@@ -10,6 +10,6 @@ class Test extends BaseController
 {
     public function index()
     {
-        echo "测试";
+        echo "新测试--------封泽生";
     }
 }
